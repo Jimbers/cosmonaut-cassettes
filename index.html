@@ -27,7 +27,7 @@
 
 <p class="warn">PLEASE READ THIS PAGE BEFORE YOU LISTEN TO ANYTHING.</p>
 
-<p>People who discuss the contents of this site openly have a habit of disappearing. Please use caution when engaging and <b>DO NOT</b> speak of them on other forums. All questions and findings should be directed at my email at <span class="email">thecosmonautcassettes@gmail.com</span>.</p>
+<p>People who discuss the contents of this site openly have a habit of disappearing. Please use caution when engaging and <b>DO NOT</b> speak of them on other forums. All questions and findings should be directed to my email at <span class="email">thecosmonautcassettes@gmail.com</span>.</p>
 
 <h2 id="what">What are the Cosmonaut Cassettes?</h2>
 
@@ -81,7 +81,7 @@ You are visitor number<br>
 (function () {
   var OFFSET = 612;
   var el = document.getElementById("hits");
-  fetch("https://abacus.jasoncameron.dev/hit/cosmonautcassettes/visits")
+  fetch("https://abacus.jasoncameron.dev/hit/cosmonautcassettes/visitors")
     .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function (d) {
       var n = String(d.value + OFFSET);
